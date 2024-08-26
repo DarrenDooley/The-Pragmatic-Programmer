@@ -175,7 +175,14 @@ You need to ensure that the knowledge in your portfolio is accurate and unswayed
 
 # Chapter 2. A Pragmatic Approach
 
-## 7.-The Evils of Duplication
+## 8.-The Principles of good design
+ETC - easier to change
+ETC should drive design decisions.
+Develop your instincts for design decisions by doing it a lot.
+Take note of when you make a decision either in notes or in the code and come back to it if you need to change something so that you learn.
+Move things that are very likely to change like auth details out of code and into env variables.
+
+## 9.-The Evils of Duplication
 The problem arises when you need to change a representation of things that are across all the code base.
 Every piece of knowledge must have a single, unambiguous, authoritative representation within a system.
 
